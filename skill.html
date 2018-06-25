@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skills</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<style type="text/css">
+		
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+	body
+	{
+		font-family: sans-serif;
+		width: 100%;
+		background-image: url(image/wew.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 130vh;
+
+	}
+
+	h1
+	{
+		color:#e67e22;
+	}
+
+	.qq
+	{
+		
+		margin-left: 10%;
+		
+		position: relative;
+	}
+
+	p
+	{
+		font-size: 80%;
+	}
+
+	h3
+	{
+		font-size: 10px;
+		margin-top: -50px;
+		color:#e67e22;
+
+	}
+
+.container
+{
+	width: 100%;
+	margin: 80px auto;
+	
+}
+
+
+.container .box h3
+{
+	text-align: center;
+	color:  #fff;
+	text-transform: uppercase;
+	background-color: #1C2833;
+	width: 100px;
+	text-align: center;
+	margin-left: 120px;
+	border-radius: 20px;
+	font-size: 90%;
+}
+.container .box
+{
+ width: 25%;
+ float: left;
+
+}
+
+.container .box .chart
+{
+	position: relative;
+	margin: 50px auto;
+	text-align: center;
+	width: 110px;
+	height: 110px;
+	font-size: 15px;
+	line-height: 110px;
+	color: #FBFCFC;
+	font-weight: bold;
+	
+
+}
+
+.skills
+{
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.container .box canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+	.button
+	{
+		font-size: 70%;
+		margin-left: 47%;
+		position: absolute;
+		margin-top: -4%;
+
+
+	}
+
+		.btn
+	{
+		text-decoration: none;
+		border: 2px solid #e67e22;
+		padding: 8px 10px;
+		border-radius: 10px;
+		color: black;
+		font-size: bold;
+	}
+
+		.btn:hover
+	{
+		color: black;
+		background-color: #e67e22;
+		transition: all 0.5s ease-in;
+		font-size: bold;
+	}
+
+
+		.edu
+	{
+		text-align: center;
+	}
+
+	.z
+	{
+		text-align: center;
+		margin: 0 auto;
+		height: 200px;
+		width: 280px;
+		margin-top: 138px;
+		float: right;
+		margin-right: 120px;
+		margin-left: 30px;
+		color:skyblue;
+
+	}
+
+.edu
+{
+	background-color:  #2e4053 ;
+	font-size: 90%;
+	color: white;
+	border-radius: 10px;
+	
+}
+
+.zzz
+{
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+
+.ty
+{
+	text-align: left;
+	margin-top: 10%;
+}
+
+
+	</style>
+</head>
+<body>
+
+
+
+
+	<div class="container">
+		<div class="box">
+			<div class="chart" data-percent="80">80%</div>
+			<h3>HTML</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="80">80%</div>
+			<h3>CSS</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="50">50%</div>
+			<h3>JavaScript</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="85">85%</div>
+			<h3>Photoshop</h3>
+		</div>
+
+
+		<div class="box">
+			<div class="chart" data-percent="70">70%</div>
+			<h3>Php</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="75">75%</div>
+			<h3>MySql</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="70">70%</div>
+			<h3>Visual Studio</h3>
+		</div>
+
+		<div class="box">
+			<div class="chart" data-percent="85">85%</div>
+			<h3>Wordpress</h3>
+		</div>
+
+
+
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<script src="jquery.easypiechart.js"></script>
+	<script>
+    $(function() {
+        $('.chart').easyPieChart({
+        	barColor: '#e67e22',
+        	scaleColor: false,
+        	Linewidth: 15,
+        	animate: 3000
+
+           
+        });
+    });
+</script>
+	
+
+		<div class="button">
+		<a href="index.html" class="btn">Home</a>
+		
+
+	</div>
+
+
+
+		
+
+		<section class="z"> 
+		<i class="fa fa-graduation-cap fa-3x"  aria-hidden="true"></i>
+			<h2 class="edu">Tertiary</h2>
+			<p class="ty">
+                
+				Tertiary:		ACCESS COMPUTER AND TECHNICAL COLLEGE<br/>
+			Bachelor of Science in Information Technology
+				2015 to 2017<br/><br/>
+
+				TECHNOLOGICAL INSTITUTE OF THE PHILIPPINES (T.I.P)<br/>
+			Bachelor of Science in Information Technology<br/>
+				(3rd year Undergraduate)<br/>
+				2012 to 2015<br/><br/>
+
+			SAMSON COLLEGE OF SCIENCE AND TECHNOLOGY
+				Computer Hardware Servicing NCII
+				2011 to 2012
+
+	
+
+			</p>
+		
+
+		</section>
+
+
+
+		<section class="z"> 
+			<i class="fa fa-graduation-cap fa-3x"  aria-hidden="true"></i>
+			<h2 class="edu">Secondary</h2>
+			<p class="zzz">
+                
+				
+				New Era High School <br/>
+				Central, Quezon City <br/><br/>
+				
+
+	
+
+			</p>
+		
+
+		</section>
+
+		<section class="z"> 
+			<i class="fa fa-graduation-cap fa-3x"  aria-hidden="true"></i>
+			<h2 class="edu">Elementary</h2>
+			<p class="zzz">
+                Elementary:		New Era Elementary School<br/>
+				Central, Quezon City <br/><br/>
+			
+
+	
+
+			</p>
+		
+
+		</section>
+
+
+
+
+
+
+</body>
+</html>
